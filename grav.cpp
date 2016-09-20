@@ -60,7 +60,7 @@ int main(int argc, char **argv)
     //set the size of the window
     glutInitWindowSize(1000, 1000);
     glutInitWindowPosition(100, 100);
-    glutCreateWindow("Grav -- s/S make planets/stars x/X reset/show trails");
+    glutCreateWindow("A Simple Gravitational Model");
     
     //set the coordinate type and coordinate limits
     glMatrixMode(GL_PROJECTION);
